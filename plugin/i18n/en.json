@@ -1,0 +1,91 @@
+{
+  "widget": {
+    "tooltip": "Anytype",
+    "tooltipWithCount": "{count} new in Anytype"
+  },
+  "menu": {
+    "settings": "Settings",
+    "refresh": "Refresh now",
+    "markAllRead": "Mark all as read"
+  },
+  "panel": {
+    "title": "Anytype",
+    "latestUpdates": "Latest updates",
+    "unread": "{count} unread",
+    "allRead": "all read",
+    "nothingNew": "Nothing new.",
+    "kanban": "Kanban",
+    "kanbanWith": "Kanban: {name}",
+    "kanbanNotConfigured": "Pick a collection in Settings to turn it into a Kanban board.",
+    "kanbanComingSoon": "Kanban board coming in a future update.",
+    "kanbanCount": "Current count: {count} objects",
+    "quickAddPlaceholder": "Quick add...",
+    "add": "Add",
+    "markRead": "Mark as read"
+  },
+  "toast": {
+    "newObjects": "{count} new objects in {collection}",
+    "newObject": "{what}"
+  },
+  "quickAdd": {
+    "ok": "Added",
+    "failed": "Quick-add failed"
+  },
+  "error": {
+    "anytypeDesktopClosed": "Anytype desktop is not running. Start it from your launcher.",
+    "serverUnreachable": "Cannot reach {url}",
+    "needsRePair": "Re-pair in Settings"
+  },
+  "settings": {
+    "connection": "Connection",
+    "mode": "Mode",
+    "modeLocalhost": "Localhost (desktop)",
+    "modeServer": "Server (self-hosted/remote)",
+    "baseUrl": "Base URL",
+    "serverUrl": "Server URL",
+    "tokenSource": "Token source",
+    "pair": "Pair",
+    "clearKey": "Clear key",
+    "pairingCode": "Code",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "pasteToken": "Paste your Bearer token",
+    "save": "Save",
+    "pairingError": "Pairing error: {reason}",
+    "space": "Space",
+    "load": "Load",
+    "watchedCollections": "Watched collections",
+    "pollLabel": "poll",
+    "secondsShort": "s",
+    "kanbanCollection": "Kanban collection",
+    "kanbanDescription": "Which watched collection to render as a Kanban board:",
+    "kanbanNone": "(None - hide the Kanban block)",
+    "kanbanStatusProperty": "Status property (used by Phase 2 Kanban board):",
+    "notificationFields": "Notification fields",
+    "notificationFieldsDescription": "Shown in toast + Panel row sub-line, in order:",
+    "addField": "+ Add field",
+    "restoreDefaults": "Restore defaults",
+    "preview": "Preview",
+    "quickAdd": "Quick-add",
+    "defaultTarget": "Default target",
+    "defaultType": "Default type",
+    "notifications": "Notifications",
+    "enableToasts": "Toast on new objects",
+    "showUnreadBadge": "Show unread badge",
+    "toastOnQuickAdd": "Toast when quick-add succeeds"
+  },
+  "fields": {
+    "created_date": "Creation date",
+    "created_by": "Created by",
+    "last_modified_date": "Last modified",
+    "last_modified_by": "Last modified by",
+    "collection_name": "Collection name",
+    "type_name": "Type",
+    "tag": "First tag",
+    "snippet": "Snippet",
+    "space_name": "Space name"
+  },
+  "config": {
+    "permissionsLax": "config.toml has lax permissions. Run: chmod 600 config.toml"
+  }
+}

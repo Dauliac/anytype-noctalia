@@ -1,0 +1,45 @@
+{
+  "id": "anytype-noctalia",
+  "name": "Anytype -> Noctalia",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "4.4.1",
+  "author": "Dauliac",
+  "license": "MIT",
+  "repository": "https://github.com/Dauliac/anytype-noctalia",
+  "description": "Watch Anytype collections for new objects, quick-add from the bar, and (soon) manage a Kanban board, all without leaving Noctalia.",
+  "tags": [
+    "Bar",
+    "Panel",
+    "Productivity",
+    "Indicator"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "mode": "localhost",
+      "baseUrl": "http://127.0.0.1:31009",
+      "serverUrl": "",
+      "apiKey": "",
+      "spaceId": "",
+      "collections": [],
+      "defaultTargetCollectionId": "",
+      "defaultTypeKey": "",
+      "notificationFields": ["created_date", "created_by"],
+      "kanbanCollectionId": "",
+      "kanbanStatusPropertyId": "",
+      "feedMaxItems": 50,
+      "enableToasts": true,
+      "showUnreadBadge": true,
+      "toastOnQuickAdd": false,
+      "readMessageIds": []
+    }
+  }
+}

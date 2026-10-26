@@ -1,0 +1,91 @@
+{
+  "widget": {
+    "tooltip": "Anytype",
+    "tooltipWithCount": "{count} nouveau(x) dans Anytype"
+  },
+  "menu": {
+    "settings": "Paramètres",
+    "refresh": "Actualiser",
+    "markAllRead": "Tout marquer comme lu"
+  },
+  "panel": {
+    "title": "Anytype",
+    "latestUpdates": "Dernières mises à jour",
+    "unread": "{count} non lu(s)",
+    "allRead": "tout lu",
+    "nothingNew": "Rien de nouveau.",
+    "kanban": "Kanban",
+    "kanbanWith": "Kanban : {name}",
+    "kanbanNotConfigured": "Choisissez une collection dans les paramètres pour l'afficher en Kanban.",
+    "kanbanComingSoon": "Tableau Kanban à venir dans une prochaine mise à jour.",
+    "kanbanCount": "Actuellement : {count} objets",
+    "quickAddPlaceholder": "Ajout rapide...",
+    "add": "Ajouter",
+    "markRead": "Marquer comme lu"
+  },
+  "toast": {
+    "newObjects": "{count} nouveaux objets dans {collection}",
+    "newObject": "{what}"
+  },
+  "quickAdd": {
+    "ok": "Ajouté",
+    "failed": "Échec de l'ajout rapide"
+  },
+  "error": {
+    "anytypeDesktopClosed": "Anytype n'est pas lancé. Démarrez-le depuis votre lanceur.",
+    "serverUnreachable": "Impossible d'atteindre {url}",
+    "needsRePair": "Reconfigurez l'appairage dans les paramètres"
+  },
+  "settings": {
+    "connection": "Connexion",
+    "mode": "Mode",
+    "modeLocalhost": "Local (application de bureau)",
+    "modeServer": "Serveur (auto-hébergé/distant)",
+    "baseUrl": "URL de base",
+    "serverUrl": "URL du serveur",
+    "tokenSource": "Source du jeton",
+    "pair": "Appairer",
+    "clearKey": "Effacer la clé",
+    "pairingCode": "Code",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "pasteToken": "Collez votre jeton Bearer",
+    "save": "Enregistrer",
+    "pairingError": "Erreur d'appairage : {reason}",
+    "space": "Espace",
+    "load": "Charger",
+    "watchedCollections": "Collections surveillées",
+    "pollLabel": "intervalle",
+    "secondsShort": "s",
+    "kanbanCollection": "Collection Kanban",
+    "kanbanDescription": "Quelle collection surveillée afficher en Kanban :",
+    "kanbanNone": "(Aucune - masquer le bloc Kanban)",
+    "kanbanStatusProperty": "Propriété de statut (utilisée par le Kanban en phase 2) :",
+    "notificationFields": "Champs des notifications",
+    "notificationFieldsDescription": "Affichés dans la notification et sous les lignes du panneau, dans l'ordre :",
+    "addField": "+ Ajouter un champ",
+    "restoreDefaults": "Restaurer les valeurs par défaut",
+    "preview": "Aperçu",
+    "quickAdd": "Ajout rapide",
+    "defaultTarget": "Cible par défaut",
+    "defaultType": "Type par défaut",
+    "notifications": "Notifications",
+    "enableToasts": "Notification pour les nouveaux objets",
+    "showUnreadBadge": "Afficher le badge non-lu",
+    "toastOnQuickAdd": "Notification à chaque ajout rapide réussi"
+  },
+  "fields": {
+    "created_date": "Date de création",
+    "created_by": "Créé par",
+    "last_modified_date": "Dernière modification",
+    "last_modified_by": "Modifié par",
+    "collection_name": "Nom de la collection",
+    "type_name": "Type",
+    "tag": "Premier tag",
+    "snippet": "Extrait",
+    "space_name": "Nom de l'espace"
+  },
+  "config": {
+    "permissionsLax": "Les permissions de config.toml sont trop ouvertes. Exécutez : chmod 600 config.toml"
+  }
+}
