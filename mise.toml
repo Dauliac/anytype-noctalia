@@ -1,0 +1,12 @@
+# Pinned toolchain for anytype-noctalia.
+#
+# This repo is a pure Noctalia QML plugin. The only tooling pinned
+# here is what helps keep the QML clean: qmllint + qmlformat ship
+# with Qt and are enforced on dev machines via the user's Qt install
+# (nixpkgs qt6.qttools / debian qt6-declarative-dev-tools / etc.).
+#
+# No node, no bundlers, no test runner - QML runs the show. If a
+# contributor wants to pin Qt itself here later, add it under [tools].
+
+[tools]
+# intentionally minimal
